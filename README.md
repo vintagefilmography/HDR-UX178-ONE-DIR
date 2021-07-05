@@ -16,7 +16,8 @@ seq 4 exp2
 etc  
 It should also be notes that both the low and high dir paths should be set the same for this to work.  
 
-Note: Hawkeye board V12 or higher and MSP FW mod are required for proper HDR operation to provide two camera triggers for a single external trigger.     
+Note: Hawkeye board V12 or higher and MSP FW mod are required for proper HDR operation to provide two camera triggers for a single external trigger. 
+https://github.com/vintagefilmography/msp430/tree/master/freq_gen_12_hdr_turbo_ux178  
 The software is written in Visual Basic and it connects to the camera and waits for the image ready event.   
 After the event is receied the sw stores the first image and lowers the camera exposure for the second image and then it stores the second image.     
 The process then repeats.   
